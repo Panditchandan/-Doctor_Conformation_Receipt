@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-header {
+    background-color: rgb(227 89 160);
+    padding: 10px;
+}
+
+
+
+/******************  logo custom css apply  here *********************/
+
+
+  
+.top-header .top-header-text {
+    font-weight: bold;
+    color: white;
+}
+
+.middle-header {
+    background-color: rgb(40, 40, 238);
+    text-align: center;
+}
+
+.middle-header .middle-header-text {
+    color: white;
+    font-family: math;
+}
+
+.middle-header .middle-header-first {
+    font-size: 2.5rem;
+}
+
+.middle-header .middle-header-second {
+    font-size: 1.5rem;
+}
+
+.bottom-header {
+    background-color: rgb(29, 163, 69);
+    color: white;
+   
+    padding: 7px;
+    font-weight: bold;
+}
+
+.bottom-header .bottom-header-text{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+ /****************** styling on form  ***************************************/
+ /* General Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    min-height: 100vh; /* Ensures content is vertically centered */
+}
+
+.form-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width inside the container */
+    max-width: 600px; /* Max width to avoid stretching */
+}
+
+h3 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Ensure form controls are full width */
+    margin-bottom: 15px; /* Space between fields */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-container a, .btn-container button {
+    width: 48%; /* Adjust button width for better alignment */
+}
+
+/* Buttons styling */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .btn-container a, .btn-container button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-container {
+        padding: 25px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
